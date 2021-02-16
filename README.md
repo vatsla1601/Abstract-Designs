@@ -26,4 +26,14 @@
  <img src = "https://user-images.githubusercontent.com/66550011/108007367-d71b7800-7023-11eb-9dfc-e4dda64d8f99.png" width="150" height="150"/>
  </p>
  
+ <p align="center">
+🤹🏻**Design 5**</p>
+ 
+ <p><img src = "https://user-images.githubusercontent.com/66550011/108008307-177bf580-7026-11eb-8952-91736a1f7dd9.png" width="150" height="150"/>
+ <img src = "https://user-images.githubusercontent.com/66550011/108008308-18ad2280-7026-11eb-8dae-c4f1e179063e.png" width="150" height="150"/>
+ <img src = "https://user-images.githubusercontent.com/66550011/108008309-19de4f80-7026-11eb-8d53-17331a93a9aa.png" width="150" height="150"/>
+ <img src = "https://user-images.githubusercontent.com/66550011/108008311-1b0f7c80-7026-11eb-9343-4f7f867bd1d6.png" width="150" height="150"/>
+ <img src = "https://user-images.githubusercontent.com/66550011/108008314-1c40a980-7026-11eb-8d17-a17137f0e073.png" width="150" height="150"/>
+ </p>
+ 
  
