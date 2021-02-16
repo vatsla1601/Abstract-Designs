@@ -17,9 +17,9 @@
  </p>
  
  <p align="center">
-🤹🏻**Design 4**<br>
+🤹🏻**Design 4**</p>
  
- <img src = "https://user-images.githubusercontent.com/66550011/108007351-c965f280-7023-11eb-8d55-8dd3f3fbc300.png" width="150" height="150"/>
+ <p><img src = "https://user-images.githubusercontent.com/66550011/108007351-c965f280-7023-11eb-8d55-8dd3f3fbc300.png" width="150" height="150"/>
  <img src = "https://user-images.githubusercontent.com/66550011/108007357-d256c400-7023-11eb-9d84-b6d6fae21176.png" width="150" height="150"/>
  <img src = "https://user-images.githubusercontent.com/66550011/108007358-d4208780-7023-11eb-98e7-80c95032d7ca.png" width="150" height="150"/>
  <img src = "https://user-images.githubusercontent.com/66550011/108007364-d5ea4b00-7023-11eb-98a5-063fe6f56891.png" width="150" height="150"/>
