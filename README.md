@@ -17,7 +17,7 @@
  </p>
  
  <p align="center">
-🤹🏻**Design 4**
+🤹🏻**Design 4**<br>
  
  <img src = "https://user-images.githubusercontent.com/66550011/108007351-c965f280-7023-11eb-8d55-8dd3f3fbc300.png" width="150" height="150"/>
  <img src = "https://user-images.githubusercontent.com/66550011/108007357-d256c400-7023-11eb-9d84-b6d6fae21176.png" width="150" height="150"/>
