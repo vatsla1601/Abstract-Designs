@@ -1,1 +1,37 @@
+function setup() {
+  createCanvas(400, 400);
+  x1=200;
+  y1=200;
+  x2=200;
+  y2=200;
+  background(51);
+  
+}
 
+function draw() {
+  // background(220);
+  stroke(255);
+  strokeWeight(2);
+  point(x1,y1);
+  point(x2,y2);
+  var r = floor(random(4));
+  switch(r){
+    case 0:
+      x1=x1+2;
+      x2--;
+      break;
+      case 1:
+      x1=x1-2;
+      x2++;
+      break;
+      case 2:
+      y1=y1+2;
+      y2--;
+      break;
+      case 3:
+      y1=y1-2;
+      y2++;
+      break;
+      
+  }
+}
