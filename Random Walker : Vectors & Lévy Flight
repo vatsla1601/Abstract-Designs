@@ -141,3 +141,104 @@ function draw() {
 ...................................................................................
 CODE:6
 ...................................................................................
+
+var prev;
+
+function setup() {
+  createCanvas(400, 400);
+  background(51);
+  pos = createVector(200,200);
+  prev = pos.copy();
+  console.log(pos);
+}
+
+function draw() {
+  stroke(255);
+  strokeWeight(2);
+  // point(pos.x,pos.y);
+  line(pos.x,pos.y,prev.x,prev.y);
+  // Set the value of previous to pos
+  prev.set(pos);
+  
+  var step = p5.Vector.random2D();
+  // step.mult(25);
+  step.mult(random(1,25));
+  // pos = pos + step;
+  pos.add(step);
+}
+
+
+...................................................................................
+CODE:7
+...................................................................................
+
+var prev;
+
+function setup() {
+  createCanvas(400, 400);
+  background(51);
+  pos = createVector(200,200);
+  prev = pos.copy();
+  console.log(pos);
+}
+
+function draw() {
+  stroke(255);
+  strokeWeight(2);
+  // point(pos.x,pos.y);
+  line(pos.x,pos.y,prev.x,prev.y);
+  // Set the value of previous to pos
+  prev.set(pos);
+  
+  var step = p5.Vector.random2D();
+  var r = random(100);
+  
+  // step.mult(25);
+  if(r<5){
+  // step.mult(random(1,25));
+  step.mult(random(25,100));}
+  // pos = pos + step;
+  pos.add(step);
+}
+
+
+...................................................................................
+CODE:8
+...................................................................................
+
+var prev;
+
+function setup() {
+  createCanvas(400, 400);
+  background(51);
+  pos = createVector(200,200);
+  prev = pos.copy();
+  console.log(pos);
+}
+
+function draw() {
+  stroke(255);
+  strokeWeight(2);
+  // point(pos.x,pos.y);
+  line(pos.x,pos.y,prev.x,prev.y);
+  // Set the value of previous to pos
+  prev.set(pos);
+  
+  var step = p5.Vector.random2D();
+  var r = random(100);
+  
+  // step.mult(25);
+  if(r<5){
+  // step.mult(random(1,25));
+  step.mult(random(25,100));}
+  else{
+    step.setMag(2);
+  }
+  // pos = pos + step;
+  pos.add(step);
+}
+
+
+...................................................................................
+CODE:9
+...................................................................................
