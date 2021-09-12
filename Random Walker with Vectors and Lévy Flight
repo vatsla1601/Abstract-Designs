@@ -1,1 +1,34 @@
+CODE:1
 
+function setup() {
+  createCanvas(400, 400);
+  background(51);
+  pos = createVector(200,200);
+  console.log(pos);
+}
+
+function draw() {
+  stroke(255);
+  strokeWeight(2);
+  point(pos.x,pos.y);
+  
+  var r = floor(random(4));
+  
+  switch(r){
+    case 0:
+      pos.x = pos.x + 1;
+      break;
+      
+      case 1:
+      pos.x = pos.x - 1;
+      break;
+      
+      case 2:
+      pos.y = pos.y + 1;
+      break;
+      
+      case 3:
+      pos.y = pos.y - 1;
+      break;
+  }
+}
