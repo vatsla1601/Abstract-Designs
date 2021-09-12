@@ -62,3 +62,82 @@ function draw() {
 ...................................................................................
 CODE:3
 ...................................................................................
+
+function setup() {
+  createCanvas(400, 400);
+  background(51);
+  pos = createVector(200,200);
+  console.log(pos);
+}
+
+function draw() {
+  stroke(255);
+  strokeWeight(2);
+  point(pos.x,pos.y);
+  
+  var step = p5.Vector.random2D();
+  step.mult(5);
+  // pos = pos + step;
+  pos.add(step);
+}
+
+
+...................................................................................
+CODE:4
+...................................................................................
+
+var prev;
+
+function setup() {
+  createCanvas(400, 400);
+  background(51);
+  pos = createVector(200,200);
+  prev = pos.copy();
+  console.log(pos);
+}
+
+function draw() {
+  stroke(255);
+  strokeWeight(2);
+  // point(pos.x,pos.y);
+  line(pos.x,pos.y,prev.x,prev.y);
+  
+  var step = p5.Vector.random2D();
+  step.mult(5);
+  // pos = pos + step;
+  pos.add(step);
+}
+
+
+...................................................................................
+CODE:5
+...................................................................................
+
+var prev;
+
+function setup() {
+  createCanvas(400, 400);
+  background(51);
+  pos = createVector(200,200);
+  prev = pos.copy();
+  console.log(pos);
+}
+
+function draw() {
+  stroke(255);
+  strokeWeight(2);
+  // point(pos.x,pos.y);
+  line(pos.x,pos.y,prev.x,prev.y);
+  // Set the value of previous to pos
+  prev.set(pos);
+  
+  var step = p5.Vector.random2D();
+  step.mult(5);
+  // pos = pos + step;
+  pos.add(step);
+}
+
+
+...................................................................................
+CODE:6
+...................................................................................
